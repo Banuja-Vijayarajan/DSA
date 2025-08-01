@@ -1,5 +1,49 @@
 📚 Java LinkedList Cheat Sheet
 
+LinkedList Methods – Java
+
+1. add(value) – Adds an element to the end of the list
+Example: fruits.add("Mango");
+
+2. add(index, value) – Adds an element at a specific index
+Example: fruits.add(2, "Blueberry");
+
+3. remove() – Removes the first element
+Example: fruits.remove();
+
+4. remove(index) – Removes the element at a specific index
+Example: fruits.remove(3);
+
+5. removeFirst() – Removes the first element
+Example: fruits.removeFirst();
+
+6. removeLast() – Removes the last element
+Example: fruits.removeLast();
+
+7. get(index) – Gets the element at the given index
+Example: fruits.get(1);
+
+8. getFirst() – Gets the first element
+Example: fruits.getFirst();
+
+9. getLast() – Gets the last element
+Example: fruits.getLast();
+
+10. clear() – Removes all elements from the list
+Example: fruits.clear();
+
+11. isEmpty() – Returns true if the list is empty
+Example: fruits.isEmpty();
+
+12. size() – Returns the number of elements in the list
+Example: fruits.size();
+
+13. for-each loop – Iterates through all elements
+Example:
+for (String fruit : fruits) {
+    System.out.println(fruit);
+}
+
 🧠 What I’ve Learned So Far:
 
 ✅ Creating a LinkedList
